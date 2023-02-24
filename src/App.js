@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import RepetitionExercise from "./components/RepetitionExercise";
 import DurationExercise from "./components/DurationExercise";
+import RunningExercise from "./components/RunningExercise";
 
 const exercises = [
   {
@@ -22,6 +23,11 @@ const exercises = [
     name: "Running",
     type: "duration",
     component: <DurationExercise name="Running" />
+  },
+  {
+    name: "Laps",
+    type: "duration",
+    component: <RunningExercise name="Laps" />
   },
 ];
 
